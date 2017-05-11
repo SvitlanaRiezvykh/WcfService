@@ -1,0 +1,6 @@
+F:\FORMATIONS\PROJETS CODES\Dot.Net\WcfService\WcfService\bin\WcfService.dll.config
+F:\FORMATIONS\PROJETS CODES\Dot.Net\WcfService\WcfService\bin\WcfService.dll
+F:\FORMATIONS\PROJETS CODES\Dot.Net\WcfService\WcfService\bin\WcfService.pdb
+F:\FORMATIONS\PROJETS CODES\Dot.Net\WcfService\WcfService\obj\Debug\WcfService.dll
+F:\FORMATIONS\PROJETS CODES\Dot.Net\WcfService\WcfService\obj\Debug\WcfService.pdb
+F:\FORMATIONS\PROJETS CODES\Dot.Net\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
