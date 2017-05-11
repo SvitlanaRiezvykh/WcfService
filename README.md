@@ -12,3 +12,5 @@ Windows Communication Foundation (WCF) est un SDK pour le développement et le d
 1. Démarrer Visual Studio.
 2. Fichier > Nouveau > Projet
 3. Visual C# et sélectionnez WCF, puis **Application de service WCF**
+
+## Paramètres de configuration pour le service
