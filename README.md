@@ -13,4 +13,17 @@ Windows Communication Foundation (WCF) est un SDK pour le développement et le d
 2. Fichier > Nouveau > Projet
 3. Visual C# et sélectionnez WCF, puis **Application de service WCF**
 
-## Paramètres de configuration pour le service
+## Configuration du fichier web.config
+
+Ajouter le code ci-dessous dans la section <system.serviceModel>
+```xml
+      <services>
+      <service name="WcfService.BookService"  behaviorConfiguration="ServiceBehavior">
+
+        <endpoint binding="webHttpBinding" contract="WcfService.IBookService" behaviorConfiguration="web">
+        </endpoint>
+        
+      </service>
+    </services>
+```
+
