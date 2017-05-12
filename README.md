@@ -27,3 +27,6 @@ Ajouter le code ci-dessous dans la section <system.serviceModel>
     </services>
 ```
 
+WebHttpBinding est la liaison spécifiquement proposée pour les services RESTful dans Windows Communication Foundation version 3.5.
+
+EndpointBehavior est "webHttp" pour le service RESTful.
