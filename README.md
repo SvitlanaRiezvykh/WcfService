@@ -30,3 +30,16 @@ Ajouter le code ci-dessous dans la section <system.serviceModel>
 WebHttpBinding est la liaison spécifiquement proposée pour les services RESTful dans Windows Communication Foundation version 3.5.
 
 EndpointBehavior est "webHttp" pour le service RESTful.
+
+
+## Test avec postman
+
+Demarrer l'application. 	
+
+| Action        | HTTP method   |URI  |
+| ------------- |:-------------:| -----:|
+| Ajouter un livre    | POST | api/book/AddBook/{book} |
+| Liste des livres     | GET      |  api/book/GetAllBooks/ |
+| Selectionner un livre | GET     |    api/book/GetBook/{id} |
+| Supprimer un livre |DELETE      |   api/book/DeleteBook/{idBook} |
+| Modifier un livre | PUT     |   api/book/UpdateBook/{book}|
