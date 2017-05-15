@@ -36,10 +36,10 @@ EndpointBehavior est "webHttp" pour le service RESTful.
 
 Demarrer l'application. 	
 
-| Action        | HTTP method   |URI  |
-| ------------- |:-------------:| -----:|
-| Ajouter un livre    | POST | api/book/AddBook/{book} |
-| Liste des livres     | GET      |  api/book/GetAllBooks/ |
-| Selectionner un livre | GET     |    api/book/GetBook/{id} |
-| Supprimer un livre |DELETE      |   api/book/DeleteBook/{idBook} |
-| Modifier un livre | PUT     |   api/book/UpdateBook/{book}|
+| Action        | HTTP method   |URI|
+| ------------- |:-------------:| -----|
+| Ajouter un livre    | POST |api/book/AddBook/{book} |
+| Liste des livres     | GET      |api/book/GetAllBooks/ |
+| Selectionner un livre | GET     |api/book/GetBook/{id} |
+| Supprimer un livre |DELETE      |api/book/DeleteBook/{idBook} |
+| Modifier un livre | PUT     |api/book/UpdateBook/{book}|
