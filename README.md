@@ -34,7 +34,7 @@ EndpointBehavior est "webHttp" pour le service RESTful.
 
 ## Test avec postman
 
-Demarrer l'application. 	
+Demarrer l'application puis tester vos methodes. 	
 
 | Action        | HTTP method   |URI|
 | ------------- |:-------------:| -----|
